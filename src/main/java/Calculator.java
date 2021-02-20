@@ -41,7 +41,6 @@ class Calculator {
      */
     int fibonacciNumberFinder(int n){
         int b = 0;
-        if (n > 1) {
             n = n - 1;
             int a = 1;
             b = 0;
@@ -52,10 +51,7 @@ class Calculator {
                 b = temp;
                 n--;
             }
-        }
-        else {
-            b = 1;
-        }
+
         return b;
     }
 
